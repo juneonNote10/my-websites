@@ -1,0 +1,147 @@
+@media only screen and (min-width: 961px) {
+  .who-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 50px;
+  }
+
+  .my-image {
+    width: 300px;
+    height: 400px;
+  }
+
+  .description-left {
+    margin-left: 50px;
+    font-size: 2em;
+  }
+
+  .from-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .korea-photo-container {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .korea-photo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .description-right {
+    margin-right: 50px;
+    font-size: 2em;
+  }
+
+  .school-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 50px;
+  }
+
+  .byu-logo {
+    width: 300px;
+    height: 200px;
+  }
+
+  .major-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 50px;
+  }
+
+  .major-logo {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .who-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.05px solid black;
+    padding: 20px;
+  }
+
+  .my-image {
+    width: 60px;
+    height: 90px;
+  }
+
+  .description-left {
+    margin-left: 15px;
+    font-size: 1em;
+  }
+
+  .from-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 0.05px solid black;
+  }
+
+  .korea-photo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .korea-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .description-right {
+    margin-right: 15px;
+    font-size: 1em;
+  }
+
+  .school-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.07px solid black;
+    padding: 20px;
+  }
+
+  .byu-logo {
+    width: 150px;
+    height: 75px;
+  }
+
+  .major-container {
+    display: flex;
+    background-color: #F5CF8E;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 0.07px solid black;
+    padding: 20px;
+  }
+
+  .major-logo {
+    width: 150px;
+    height: 75px;
+  }
+}
