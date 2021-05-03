@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  color: #33C1FF;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 5em;
+  margin-bottom: 0em;
+  padding-top: 36px;
+  border-bottom: 0.03em solid #000000;
+}
+
+h2 {
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+
+.navi-bar {
+  margin: 0;
+  padding: 0;
+}
+
+.navi-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #619745;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navi-bar li {
+  float: left;
+  border-right: 1px solid black;
+}
+
+.navi-bar li:last-child {
+  border-right: none;
+}
+
+.navi-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #78BC54;
+}
+
+.content {
+  padding: 7em;
+  border-bottom: 0.05em solid #000000;
+}
+
+#about-me {
+  background-color: #FF8333;
+}
+
+#projects {
+  background-color: #C1C700;
+  text-align: right;
+  list-style-position: inside;
+}
+
+#exp {
+  background-color: #9497FC;
+}
+
+#contact {
+  background-color: #C258C7;
+  text-align: right;
+  list-style-position: inside;
+}
+
+#links {
+  background-color: #E9EAD7;
+  padding: 3em;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#links h2 {
+  font-size: 1em;
+  font-weight: lighter;
+  font-style: italic;
+  padding-bottom: 0.3em;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
